@@ -15,7 +15,7 @@ body {
 }
 
 .container  {
-    width: 50%;
+    width: 40%;
     box-shadow: 0px 0px 5px #909090;
     padding: 20px;
     border-radius: 15px;
@@ -53,10 +53,12 @@ img {
 
 .notified {
     display: flex;
-    margin: 15px 0px;
-    background-color: rgb(239, 244, 245);
+    margin: 10px 0px;
+    /* background-color: rgb(239, 244, 245); */
     padding: 10px;
     border-radius: 10px;
+    color: #7c7777;
+    cursor: pointer;
 }
 
 p {
@@ -67,3 +69,50 @@ span, h5 {
     font-weight: bolder;
 }
 
+.name:hover, .chess:hover, .content:hover, .chess, #mark:hover {
+    color: midnightblue;
+    cursor: pointer;
+}
+
+#mark:hover {
+    font-weight: bolder;
+}
+
+.content {
+    color: #696969;
+}
+
+.kim {
+    display: flex;
+}
+
+.img-2 {
+    /* position: absolute; */
+    margin-left: 20%;
+}
+
+#message {
+    padding: 15px 10px;
+    border: 1px solid #b4aeae;
+    margin-top: 10px ;
+    border-radius: 5px;
+    cursor: auto;
+}
+
+.unread, #message:hover {
+    background-color: rgb(228, 242, 246);
+}
+
+.name {
+    color: black;
+}
+
+@media only screen and (max-width:375px) {
+    body {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+    }
+}

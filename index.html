@@ -13,30 +13,30 @@
 <body>
     <div class="container">
         <div class="head">
-            <h1>  Notifications <span>3</span></h1>
+            <h1>  Notifications <span id="new-notification"></span></h1>
             <p id="mark">Mark all as read</p>
         </div>
 
-        <div class="notified">
+        <div class="notified unread">
             <img src="./assets/images/avatar-mark-webber.webp" alt="eb">
             <div>
-                <p>  <span >Mark Webber</span> reacted to your recent post <span>My first tournament today!</span> </p>
+                <p>  <span class="name">Mark Webber</span> reacted to your recent post <span class="content">My first tournament today!</span> </p>
             <p>1m ago</p>
         </div>
         </div>
 
-        <div class="notified">
+        <div class="notified unread">
             <img src="./assets/images/avatar-angela-gray.webp" alt="eb">
             <div>
-                 <p>  <span>Angela Gray</span> followed you  </p>
+                 <p>  <span class="name">Angela Gray</span> followed you  </p>
                 <p>5m ago</p>
         </div>
         </div>
         
-        <div class="notified">
+        <div class="notified unread">
             <img src="./assets/images/avatar-jacob-thompson.webp" alt="">
             <div>
-                <p><span> Jacob Thompson</span> has joined your group <span>Chess Club</span></p>
+                <p><span class="name"> Jacob Thompson</span> has joined your group <span class="chess">Chess Club</span></p>
                 <p>1 days ago</p>
             </div>
         </div>
@@ -45,39 +45,38 @@
             <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="">
             <div>
                 <div>
-                    <p><span>Rizky Hasanuddin</span> sent you a private message</p>
+                    <p><span class="name">Rizky Hasanuddin</span> sent you a private message</p>
                     <p>5 days ago</p>
 
-                    <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+                    <p id="message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
                 </div>
             </div>
         </div>
 
-        <div class="notified">
+        <div class="notified kim">
             <img src="./assets/images/avatar-kimberly-smith.webp" alt="">
             
             <div>
-                <p><span>Kimberly Smith</span> commented on your picture</p>
+                <p><span class="name ">Kimberly Smith</span> commented on your picture</p>
                 <p>1 weeks ago</p>
             </div>
-            <img src="./assets/images/image-chess.webp" alt="">
+            <img src="./assets/images/image-chess.webp" alt="" class="img-2">
         </div>
 
         <div class="notified">
             <img src="./assets/images/avatar-nathan-peterson.webp" alt="">
             <div>
-                <p><span>Nathan Peterson</span> reacted to your recent post  5 end-game strategies to increase your win rate
+                <p><span class="name">Nathan Peterson</span> reacted to your recent post  <span class="content">5 end-game strategies to increase your win rate</span>
                 </p>
                 <p>  2 weeks ago</p>
             </div>
         </div>
-
-        
-        <div class="notified">
+ 
+        <div class="notified ">
             <img src="./assets/images/avatar-anna-kim.webp" alt="">
 
             <div>
-                <p><span>Anna Kim</span> left the group Chess Club</p>
+                <p><span class="name">Anna Kim</span> left the group <span class="chess"> Chess Club </span></p>
                 <p>2 weeks ago</p>
             </div>
         </div>
